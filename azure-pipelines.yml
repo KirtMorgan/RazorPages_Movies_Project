@@ -29,3 +29,6 @@ steps:
 
 - task: PublishBuildArtifacts@1
   displayName: 'publish build artifacts'
+  
+- script: dotnet run
+  displayName: 'dotnet run'
