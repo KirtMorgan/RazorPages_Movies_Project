@@ -55,7 +55,7 @@
                 "[concat('Microsoft.Web/serverfarms/', parameters('hostingPlanName'))]"
             ],
             "tags": {
-                "Name": "spartaglobal"
+                "Name": "spartanew"
             },
             "properties": {
                 "name": "[parameters('name')]",
@@ -76,7 +76,7 @@
             "name": "[parameters('hostingPlanName')]",
             "location": "[parameters('location')]",
             "tags": {
-                "Name": "spartaglobal"
+                "Name": "spartanew"
             },
             "sku": {
                 "Tier": "[parameters('sku')]",
