@@ -33,5 +33,5 @@ steps:
 - task: PublishBuildArtifacts@1
   displayName: 'publish template'
   inputs:
-    pathToPublish: '$(Build.SourcesDirectory)/arm_template'
+    pathToPublish: '/Users/tech-a11/Documents/Eng32/Azure/RazorPages_Movies_Project/arm-template'
     artifactName: 'Arm Template'
