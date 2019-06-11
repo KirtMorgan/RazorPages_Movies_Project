@@ -8,6 +8,9 @@
         "name": {
             "type": "String"
         },
+        "startup": {
+            "type": "String"
+        },
         "location": {
             "type": "String"
         },
