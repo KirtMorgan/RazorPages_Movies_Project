@@ -9,7 +9,7 @@
             "value": "spartanew"
         },
         "startup": {
-            "value": "dotnet Program.cs"
+            "value": "dotnet RazorPagesMovie.csproj"
         },
         "location": {
             "value": "UK West"
