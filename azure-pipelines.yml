@@ -29,6 +29,9 @@ steps:
 
 - task: PublishBuildArtifacts@1
   displayName: 'publish build artifacts'
-  
-- script: dotnet run
-  displayName: 'dotnet run'
+
+- task: PublishBuildArtifacts@1
+  displayName: 'publish template'
+  inputs:
+    pathToPublish: '$(Build.SourcesDirectory)/arm_template'
+    artifactName: 'Arm Template'

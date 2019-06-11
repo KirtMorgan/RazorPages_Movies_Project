@@ -1,0 +1,48 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+        "subscriptionId": {
+            "value": "247010fa-fbec-460e-9d21-16f99462c952"
+        },
+        "name": {
+            "value": "spartaglobal"
+        },
+        "startup": {
+            "value": "dotnet RazorPagesMovie.dll"
+        },
+        "location": {
+            "value": "UK West"
+        },
+        "hostingEnvironment": {
+            "value": ""
+        },
+        "hostingPlanName": {
+            "value": "ASP-spartatest-b107"
+        },
+        "serverFarmResourceGroup": {
+            "value": "spartatest"
+        },
+        "alwaysOn": {
+            "value": false
+        },
+        "sku": {
+            "value": "Basic"
+        },
+        "skuCode": {
+            "value": "B1"
+        },
+        "workerSize": {
+            "value": "0"
+        },
+        "workerSizeId": {
+            "value": "0"
+        },
+        "numberOfWorkers": {
+            "value": "1"
+        },
+        "linuxFxVersion": {
+            "value": "DOTNETCORE|2.2"
+        }
+    }
+}
