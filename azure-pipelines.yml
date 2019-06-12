@@ -42,6 +42,6 @@ steps:
 
 - task: AzureRmWebAppDeployment@3
   inputs:
-    azureSubscription: 'ASP-spartatest-b107'
+    azureSubscription: 'Free Trial'
     WebAppName: 'spartanew'
     Package: $(System.ArtifactsDirectory)/**/*.zip
