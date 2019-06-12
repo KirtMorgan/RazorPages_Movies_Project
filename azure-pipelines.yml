@@ -35,3 +35,14 @@ steps:
   inputs:
     pathToPublish: '$(Build.SourcesDirectory)/arm-template'
     artifactName: 'Arm Template'
+
+  steps:
+- task: DotNetCoreCLI@2
+  inputs:
+    command: run
+
+- task: AzureRmWebAppDeployment@3
+  inputs:
+    azureSubscription: '247010fa-fbec-460e-9d21-16f99462c952'
+    WebAppName: 'spartanew'
+    Package: $(System.ArtifactsDirectory)/**/*.zip
