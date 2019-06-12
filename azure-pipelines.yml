@@ -35,8 +35,7 @@ steps:
   inputs:
     pathToPublish: '$(Build.SourcesDirectory)/arm-template'
     artifactName: 'Arm Template'
-
-  steps:
+    
 - task: DotNetCoreCLI@2
   inputs:
     command: run
