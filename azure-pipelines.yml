@@ -38,4 +38,8 @@ steps:
 
 - task: DotNetCoreCLI@2
   inputs:
+    command: dotnet dev-certs https --trust
+
+- task: DotNetCoreCLI@2
+  inputs:
     command: run
